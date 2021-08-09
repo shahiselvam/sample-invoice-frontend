@@ -211,7 +211,7 @@ class invoice extends React.Component {
         })
         console.log(data);
         debugger
-        if (data.result == "success") {
+        if (data.result === "success") {
 
             alert(data.message)
 
