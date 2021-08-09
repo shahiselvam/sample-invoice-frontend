@@ -47,7 +47,7 @@ handleChange = ( { target: { name , value } }) =>{
     withCredentials: true
   });
  
-  if(data.result == "Success"){
+  if(data.result === "Success"){
   
     
     alert(data.message); 
@@ -72,7 +72,7 @@ handleChange = ( { target: { name , value } }) =>{
     withCredentials: true
   });
 
-  if(data.result == "error"){
+  if(data.result === "error"){
 
 
     alert(data.message); 
