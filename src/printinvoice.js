@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import Header from './header';
 import Footer from './footer';
-import { jsPDF } from "jspdf";
+
 
 const API_URL3 = 'https://sample-invoice.herokuapp.com/Invoice';
 
