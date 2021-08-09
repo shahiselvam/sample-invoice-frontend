@@ -71,7 +71,7 @@ class employeeRegistration extends React.Component {
 
             })
 
-        if (data.result == "success") {
+        if (data.result === "success") {
 
             alert(data.message);
         }
