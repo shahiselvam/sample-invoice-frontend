@@ -36,7 +36,7 @@ this.state = {
     })
 
     this.setState({ user: data })
-    console.log(this.state. user);
+   
  }
 
  handleChange = ({target:{name , value ,checked}}) =>{
@@ -73,7 +73,7 @@ const { data } = await axios.post( API_URL , {
     withCredentials: true
 })
 
-if(data.result = "success"){
+if(data.result === "success"){
     alert(data.message);
 }
 
