@@ -34,7 +34,7 @@ class Forget extends React.Component{
 
         withCredentials: true
       }) 
-     if(data.result == "success"){
+     if(data.result === "success"){
     
     
         alert(data.message); 
