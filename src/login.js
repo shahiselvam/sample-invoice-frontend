@@ -39,8 +39,8 @@ password:this.state.password
 
   withCredentials: true
 })
-debugger
-if(data.result == "error"){
+
+if(data.result === "error"){
   alert(data.message);
  
 
