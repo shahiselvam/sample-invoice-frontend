@@ -46,7 +46,7 @@ class viewInvoice extends React.Component {
         withCredentials: true
      });
     
-    if(data.result = "Success") {
+    if(data.result === "Success") {
 
         alert(data.message);
     }
@@ -55,9 +55,9 @@ class viewInvoice extends React.Component {
 
         alert(data.message);
     }
-    debugger
+    
     let invoices = [...this.state.invoice];
-    invoices = invoices.filter(({ _id }) => _id != id);
+    invoices = invoices.filter(({ _id }) => _id !== id);
         this.setState({ invoices });
 
         this.getInvoice();
